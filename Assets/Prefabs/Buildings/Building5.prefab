@@ -182,9 +182,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 5883163939249840220}
-  gametime: 5
-  GetGold: 2
-  GetGem: 0
+  gametime: 2
+  GetGold: 1
+  GetGem: 3
   textMesh: {fileID: 4495055497953960470}
 --- !u!1 &3062467228032241778
 GameObject:
@@ -309,7 +309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2855833477709223134}
   m_Layer: 0
-  m_Name: Building1
+  m_Name: Building5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

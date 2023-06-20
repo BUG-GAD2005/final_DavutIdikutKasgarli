@@ -182,9 +182,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 5883163939249840220}
-  gametime: 1
+  gametime: 4
   GetGold: 0
-  GetGem: 2
+  GetGem: 1
   textMesh: {fileID: 4495055497953960470}
 --- !u!1 &3062467228032241778
 GameObject:

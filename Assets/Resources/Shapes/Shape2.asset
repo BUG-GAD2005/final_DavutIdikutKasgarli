@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c303f3b6967399d4fb3faf30607b5cad, type: 3}
-  m_Name: ShapeBox
+  m_Name: Shape2
   m_EditorClassIdentifier: 
   columns: 2
   rows: 2
   board:
-  - columns: 0101
+  - columns: 0100
   - columns: 0101

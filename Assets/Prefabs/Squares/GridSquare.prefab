@@ -127,10 +127,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52bf0371dce7704fafe1e235de6f180, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParentGridScript: {fileID: 0}
   normalImage: {fileID: 7670193652198727692}
   normalImages:
-  - {fileID: 21300000, guid: e9097db10e148264f824cc4c70d72557, type: 3}
-  - {fileID: 21300000, guid: a11542f060f538f489a26fd9bdf4fb75, type: 3}
+  - {fileID: 21300000, guid: 181aa01ea810fb342b4d30fe12f3b3bc, type: 3}
+  - {fileID: 21300000, guid: 181aa01ea810fb342b4d30fe12f3b3bc, type: 3}
 --- !u!61 &5169875454228057559
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -20,11 +20,13 @@ public class Shape : MonoBehaviour
         if(TryPlaceShape())
         {
            GiveCustomColor(0, 1, 0, 1);
-        }    
+        }   
         else
         {
             GiveCustomColor(1, 0, 0, 1);
         }
+
+
 
         //if spacebar pressed
     }
@@ -72,6 +74,7 @@ public class Shape : MonoBehaviour
         prefab.transform.position = _shapePosition;
         */
         Destroy(gameObject);
+        GiveCustomColor(1, 1, 1, 1);
         destroyed = true;
         return true;
     } 

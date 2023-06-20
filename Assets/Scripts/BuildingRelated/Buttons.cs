@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class Buttons : MonoBehaviour
 {
@@ -10,11 +11,15 @@ public class Buttons : MonoBehaviour
     EventTrigger eventTrigger;
     public int neededGold;
     public int neededGem;
+    public TextMeshProUGUI goldText;
+    public TextMeshProUGUI gemText;
     // Start is called before the first frame update
     void Start()
     {
         eventTrigger = newButton.GetComponent<EventTrigger>();
         SetInteract(false);
+        goldText.text = neededGold.ToString();
+        gemText.text = neededGem.ToString();
     }
 
     // Update is called once per frame
@@ -35,7 +40,7 @@ public class Buttons : MonoBehaviour
             SetInteract(false);
         }
     }
-    void SetInteract(bool boolValue)
+    public void SetInteract(bool boolValue)
     {
         newButton.interactable = boolValue;
        //disable trigger functions
